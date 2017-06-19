@@ -1,0 +1,27 @@
+{
+  "name": "coming-soon-website",
+  "version": "1.0.0",
+  "description": "a coming soon website built with html, css and javascript.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "start": "gulp",
+    "deploy": "now"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "author": "Stefan Dragas",
+  "license": "ISC",
+  "homepage": "",
+  "devDependencies": {
+    "autoprefixer": "^7.1.1",
+    "browser-sync": "^2.18.8",
+    "bs-html-injector": "^3.0.3",
+    "gulp": "^3.9.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-postcss": "^7.0.0",
+    "gulp-sass": "^3.1.0"
+  }
+}
