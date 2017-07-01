@@ -319,7 +319,7 @@ body {
   margin-left: 0;
 }
 
-.modal-footer > button {
+.modal-footer button {
   background-color: #9D916C;
   color: #fff;
   width: 100%;
@@ -333,7 +333,7 @@ body {
   transition: background-color 0.2s ease-in-out;
 }
 
-.modal-footer > button:hover {
+.modal-footer button:hover {
   background-color: #807656;
 }
 
@@ -343,6 +343,17 @@ body {
 
 .modal-footer > :not(:last-child) {
   margin-right: 0;
+}
+
+.modal-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 100%;
 }
 
 .modal-input {

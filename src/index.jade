@@ -32,8 +32,10 @@ html(lang='en')
                     .modal-body
                       h5.modal-subTitle Enter your email adress to get notified when our site is ready.
                     .modal-footer
-                      input.form-control.modal-input(type='text', placeholder='Insert your email')
-                      button.btn.modal__footerButton(type='button') Send
+                      form(method="POST" action="https://formspree.io/email@email.com").modal-form
+                        input.form-control.modal-input(type="text" placeholder="Please enter your name")
+                        input.form-control.modal-input(type='email' name="_replyto" placeholder='Please enter your email' required)
+                        button.btn.modal__footerButton(type='submit') Send
         .row
           .col-sm-12
             footer.main-footer

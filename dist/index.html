@@ -33,8 +33,11 @@
                       <h5 class="modal-subTitle">Enter your email adress to get notified when our site is ready.</h5>
                     </div>
                     <div class="modal-footer">
-                      <input type="text" placeholder="Insert your email" class="form-control modal-input">
-                      <button type="button" class="btn modal__footerButton">Send</button>
+                      <form method="POST" action="https://formspree.io/email@email.com" class="modal-form">
+                        <input type="text" placeholder="Please enter your name" class="form-control modal-input">
+                        <input type="email" name="_replyto" placeholder="Please enter your email" required class="form-control modal-input">
+                        <button type="submit" class="btn modal__footerButton">Send</button>
+                      </form>
                     </div>
                   </div>
                 </div>
